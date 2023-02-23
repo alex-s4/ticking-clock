@@ -1,0 +1,40 @@
+#face {
+    /* background-color: #f3f3f3; */
+    background-image: url("https://toppng.com//public/uploads/preview/clock-face-without-hands-11549789960tkscwc7bpl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid black;
+    position: relative;
+  }
+      
+  #minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+  }
+      
+  #seconds {
+    background-color: red;
+    height: 130px;
+    width: 2px;
+  }
+      
+  #hour {
+    background-color: black;
+    height: 90px;
+    width: 8px;
+    /* transform: rotate(125deg); */
+  }
+      
+  #minutes {
+    background-color: grey;
+    height: 120px;
+    width: 4px;
+    /* transform: rotate(255deg); */
+  }
+  
